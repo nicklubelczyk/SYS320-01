@@ -1,0 +1,1 @@
+﻿Get-Service | Where-Object Status -eq "Stopped" | Sort-Object Name | Export-Csv -Path "stopped_services.csv"
