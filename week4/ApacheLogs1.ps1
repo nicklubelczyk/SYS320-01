@@ -17,3 +17,6 @@ $words = $logsNotformatted[$i].Split(" ");
 }
 return $tableRecords | Where-Object { $_.IP -ilike "10.*" }
 }
+
+$tableRecords = ApacheLogs1
+$tableRecords | Format-Table -AutoSize -Wrap
