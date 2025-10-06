@@ -166,15 +166,15 @@ while($operation){
     # List at Risk Users
     elseif($choice -eq 9){
 
-        $days = Read-Host -Prompt "Please enter the number of days to search back"
+        $days = Read-Host -Prompt "Enter the number of days to search back"
 
         $failedLogins = getFailedLogins $days
 
 
         $atRiskUsers = $failedLogins | Group-Object -Property User | Where-Object { $_.Count -gt 10 }
-         Write-Host "`nAt-Risk Users (more than 10 failed logins in the last $days days):" | Out-String
+         Write-Host "`nAt Risk Users:" | Out-String
          foreach($user in $atRiskUsers){
-            Write-Host "User: $($user.Name) - Failed Login Count: $($user.Count)" | Out-String
+            Write-Host "User: $($user.Name)" | Out-String
         }
     }
 
