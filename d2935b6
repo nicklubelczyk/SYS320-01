@@ -1,0 +1,20 @@
+[33mb992563[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: checkout: moving from 99bac89b9182610c603569cf9979a643cb28468b to main
+[33m99bac89[m HEAD@{1}: commit: Week 7
+[33mb992563[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: reset: moving to origin/main
+[33m69ffda8[m HEAD@{3}: commit: Week 7
+[33mb992563[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{4}: reset: moving to origin/main
+[33md2935b6[m HEAD@{5}: commit: Week 7
+[33m5130844[m HEAD@{6}: commit: Week 7
+[33m4e06e00[m HEAD@{7}: commit: Week 6
+[33mb9b0f6a[m HEAD@{8}: pull --rebase (start): checkout b9b0f6a850db23ee772251c2c43d441edb7ba1f5
+[33mb992563[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{9}: commit: Week 6
+[33mbf036ba[m HEAD@{10}: commit: Week 6
+[33m3bb77bd[m HEAD@{11}: pull: Merge made by the 'ort' strategy.
+[33m0faba63[m HEAD@{12}: commit: Week 5
+[33m89866c4[m HEAD@{13}: commit: week4
+[33m9d3ff57[m HEAD@{14}: commit: week4
+[33mb1d08f5[m HEAD@{15}: commit: Week 3
+[33m14ca3ea[m HEAD@{16}: commit: Week 3 hw
+[33m6dad8ef[m HEAD@{17}: pull: Merge made by the 'ort' strategy.
+[33m1db582a[m HEAD@{18}: commit: Week 2 hw
+[33m9fda0fa[m HEAD@{19}: commit (initial): Initial Commit for Week 1
