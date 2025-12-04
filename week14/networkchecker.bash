@@ -31,7 +31,7 @@ function InternalNmap(){
 # Only IPv4 ports listening from network
 function ExternalListeningPorts(){
 
-  exlpo=$(ss -ltpn | awk -F"[[:space:]:(),]+" '!/127.0.0./ && /LISTEN/ {print $5,$9}' | tr -d "\"")
+  exlpo=$(ss -ltpn | awk -F"[[:space:]:(),]+" '!/127.0.0./ && /LISTEN/ {print $5,$9}' | tr -d "\"" | awk '$2!="*"')
 }
 
 
